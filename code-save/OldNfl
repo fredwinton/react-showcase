@@ -1,0 +1,171 @@
+import React, { Component } from 'react';
+import Teams from './Teams'
+import LatestNflNews from './LatestNflNews'
+import { Link } from 'react-router-dom';
+
+const Nfl = () => (
+  <div  className="container">
+  	  <div className="row">
+		  <div className="col-sm-3 nfl-left-col">
+		  	<div className="padding-zero">
+		  		<ul className="padding-zero">
+		  			<li> 
+		  				<div className="quick-links">
+		  					<header className="quick-links-header">
+		  						<h2 className="quick-links-heading"> Quick Hits </h2>
+		  					</header>
+		  					<ul className="quick-links-list">
+		  						<li className="quick-links-list-item"> 
+			  						<Link to='/nfl' activeClassName="quick-links-link">
+
+			  								<div className="quick-links-list-item-icon">
+			  									<img className="quick-links-list-item-icon" src="/img/nfl.png" alt="NFL" />
+			  								</div>
+			  								<div className="quick-links-list-item-detail">
+			  									<span className="quick-links-span"> Weekly Power Rankings</span>
+			  								</div>		  								
+
+			  						</Link>
+		  						</li>
+		  						<li className="quick-links-list-item"> 
+			  						<Link to='/nfl' activeClassName="quick-links-link">
+			  								<div className="quick-links-list-item-icon">
+			  									<img className="quick-links-list-item-icon" src="/img/nfl.png" alt="NFL" />
+			  								</div>
+			  								<div className="quick-links-list-item-detail">
+			  									<span className="quick-links-span">Who did the experts pick?</span>
+			  								</div>		  								
+			  						</Link>
+		  						</li>
+		  						<li className="quick-links-list-item"> 
+			  						<Link to='/nfl' activeClassName="quick-links-link">
+
+			  								<div className="quick-links-list-item-icon">
+			  									<img className="quick-links-list-item-icon" src="/img/nfl.png" alt="NFL" />
+			  								</div>
+			  								<div className="quick-links-list-item-detail">
+			  									<span className="quick-links-span">Trade Tracker </span>
+			  								</div>		  								
+
+			  						</Link>
+		  						</li>
+		  						<li className="quick-links-list-item"> 
+			  						<Link to='/nfl' activeClassName="quick-links-link">
+			  								<div className="quick-links-list-item-icon">
+			  									<img className="quick-links-list-item-icon" src="/img/nfl.png" alt="NFL" />
+			  								</div>
+			  								<div className="quick-links-list-item-detail">
+			  									<span className="quick-links-span">Top Fantasy Players</span>
+			  								</div>		  								
+			  						</Link>
+		  						</li>
+		  					</ul>
+		  				</div>
+		  				<div className="quick-links">
+		  					<header className="quick-links-header">
+		  						<h2 className="quick-links-heading"> Teams </h2>
+		  					</header>
+		  					<ul className="quick-links-list">
+		  						<li className="quick-links-list-item"> 
+			  						<Link to='/nfl' activeClassName="quick-links-link">
+
+			  								<div className="quick-links-list-item-icon">
+			  									<img className="quick-links-list-item-icon" src="/img/nfl.png" alt="NFL" />
+			  								</div>
+			  								<div className="quick-links-list-item-detail">
+			  									<span className="quick-links-span"> Weekly Power Rankings</span>
+			  								</div>		  								
+
+			  						</Link>
+		  						</li>
+		  						<li className="quick-links-list-item"> 
+			  						<Link to='/nfl' activeClassName="quick-links-link">
+			  								<div className="quick-links-list-item-icon">
+			  									<img className="quick-links-list-item-icon" src="/img/nfl.png" alt="NFL" />
+			  								</div>
+			  								<div className="quick-links-list-item-detail">
+			  									<span className="quick-links-span">Who did the experts pick?</span>
+			  								</div>		  								
+			  						</Link>
+		  						</li>
+		  						<li className="quick-links-list-item"> 
+			  						<Link to='/nfl' activeClassName="quick-links-link">
+
+			  								<div className="quick-links-list-item-icon">
+			  									<img className="quick-links-list-item-icon" src="/img/nfl.png" alt="NFL" />
+			  								</div>
+			  								<div className="quick-links-list-item-detail">
+			  									<span className="quick-links-span">Trade Tracker </span>
+			  								</div>		  								
+
+			  						</Link>
+		  						</li>
+		  						<li className="quick-links-list-item"> 
+			  						<Link to='/nfl' activeClassName="quick-links-link">
+			  								<div className="quick-links-list-item-icon">
+			  									<img className="quick-links-list-item-icon" src="/img/nfl.png" alt="NFL" />
+			  								</div>
+			  								<div className="quick-links-list-item-detail">
+			  									<span className="quick-links-span">Top Fantasy Players</span>
+			  								</div>		  								
+			  						</Link>
+		  						</li>
+		  					</ul>
+		  				</div>
+		  			</li>
+		  		</ul>
+		  	</div>
+		  </div>	      
+	      <div className='col-sm-9 nfl-middle-col'>
+
+	      	<section className="content-feed">
+
+		      	<section className="content-feed-hero">
+
+		      		<article class="content-item-hero">
+						<p><img className="img-photo" src="img/jay_ajayi.jpg" alt="Jay Ajayi" width="590" height="250" border="0" /></p>
+						<section className="content-item-story-wrapper">
+
+							<section className="content-item-story">
+
+									<section className="content-item-content">
+										<h1 className="content-item-title"> Keep on riding the Ajayi Train for Week 10</h1>
+										<p> Week 10 is upon us and we have passed the midpoint for the NFL 2017 season. Who should you target on the waiver wire this week?</p>
+									</section>
+
+							</section>
+
+
+						</section>
+
+		      		</article>
+
+		      	</section>
+
+
+	      	</section>
+
+
+
+
+		  </div>
+	  </div>
+	  <div className="row">
+		  <div className="container-fluid">
+		  	<div className="row">
+				<div className="col-sm-2">
+	  			   {/* 	<LatestNflNews /> */}
+				</div>		  	
+	  	        <div className="col-sm-7">
+	  				{/* <Teams /> */}
+				</div>
+				<div className="col-sm-3">
+	  				Three of three columns
+				</div>
+		  	</div>
+		  </div>
+	  </div>
+  </div>
+)
+
+export default Nfl
